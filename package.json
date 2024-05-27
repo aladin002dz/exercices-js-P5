@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "http-server -p 8080 -d",
-    "test": "cypress open"
+    "test": "cypress open",
+    "test:ci": "cypress run"
   },
   "author": "",
   "license": "ISC",
