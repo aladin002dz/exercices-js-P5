@@ -1,0 +1,42 @@
+/*
+
+Appliquez des styles CSS sur le fichier HTML :
+
+1. Définir une **couleur** d'arrière-plan différente pour chaque élément: 
+    - `header` : `#FFCC99`, 
+    - `main` : `#E6F2FF`, 
+    - `aside` `#B3D9FF`:, 
+    - `footer` : `#99CC99` ) ;
+2. Mettre en **gras** et **centrer** le texte du titre dans l'en-tête ;
+3. Ajouter une **marge** de 20 pixels autour de la section principale ;
+4. Utiliser **Flexbox** pour disposer la barre latérale à gauche et le contenu principal à droite (`aside : flex 1` et `section : flex 3`) ;
+5. Ajouter une **bordure** de 1 pixel autour de la barre latérale et du pied de page, avec une couleur de bordure grise (#CCC);
+6. Ajouter une **ombre** à l'en-tête et au pied de page pour les faire ressortir.
+*/
+
+header {
+    background-color: #FFCC99;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 0 10px #000;
+}
+
+main {
+    background-color: #E6F2FF;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    background-color: #B3D9FF;
+    border: 1px solid #CCC;
+    box-shadow: 0 0 10px #000;
+    flex: 1;
+}
+
+footer {
+    background-color: #99CC99;
+    border: 1px solid #CCC;
+    box-shadow: 0 0 10px #000;
+}

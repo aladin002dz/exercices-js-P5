@@ -1,0 +1,13 @@
+/*
+
+**Ajoutez** un fichier de style CSS qui change la couleur du texte 
+dans la balise `<p>` en bleu, la police en Arial et la taille du texte 
+en 16px.
+
+*/
+
+p {
+    color: blue;
+    font-family: Arial;
+    font-size: 16px;
+}

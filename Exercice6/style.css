@@ -1,0 +1,11 @@
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+ul li {
+  color: #007bff;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */

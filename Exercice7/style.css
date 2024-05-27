@@ -51,3 +51,25 @@ section {
     margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+
+    header {
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul {
+        display: block;
+    }
+
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+}
