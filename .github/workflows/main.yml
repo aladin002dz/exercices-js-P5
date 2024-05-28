@@ -3,7 +3,7 @@ name: Cypress Tests
 on:
   push:
     branches:
-      - main # Adjust this to your branch name
+      - master # Adjust this to your branch name
 
 jobs:
   cypress-run:
@@ -19,4 +19,3 @@ jobs:
         uses: cypress-io/github-action@v6
         with:
           start: npm start
-          test: npm run test:ci
